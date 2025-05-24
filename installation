@@ -1,0 +1,5 @@
+!pip install kaggle
+!kaggle datasets download -d username/diseases-and-symptoms-dataset
+!unzip diseases-and-symptoms-dataset.zip
+from google.colab import files
+files.upload()
